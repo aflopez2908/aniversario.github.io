@@ -11,21 +11,26 @@
 .cabecera h2 {
     position: absolute;
     left: 50%;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
 }
 
 .cabecera p{
     position: absolute;
     left: 50%;
     top: 30%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
 }
 
 
 
 .cards-grid {
-  display: flex;
+    display: flex;
     flex-wrap: wrap;
-  grid-gap: 80px;
-  padding-bottom: 60px;
+    grid-gap: 80px;
+    padding-bottom: 60px;
+    justify-content: center;
 }
 
 /* FLIP CARD */
@@ -61,7 +66,7 @@
   display: grid;
   place-items: center;
   padding: 32px;
-  background-color: #B1CFC8;
+  background-color: #bb9d7a;
   transform: rotateY(180deg);
 }
 .flip-card:hover .flip-card-inner {
