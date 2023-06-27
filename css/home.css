@@ -6,7 +6,23 @@
 
 }
 
+.carta{
 
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem;
+}
+
+.carta img {
+
+  height: 300px;
+
+}
+
+
+
+
+/* este es el del boton*/
 .css-button-retro--red {
     font-family: 'Bebas Neue', sans-serif;
   min-width: 130px;
