@@ -1,0 +1,120 @@
+/* Reset.css */
+
+/* Establecer el box-sizing en border-box para todos los elementos */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remover los márgenes y rellenos predeterminados */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remover la lista de estilos y márgenes de los elementos de lista */
+ol,
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Remover los estilos de enlace predeterminados */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Establecer el tamaño de fuente base y la familia de fuentes */
+body {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+/* Remover los estilos de viñetas y números ordenados */
+ol,
+ul {
+    list-style: none;
+}
+
+/* Remover la decoración de texto subrayado para elementos encabezados */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-decoration: none;
+}
+
+/* Remover el margen inferior predeterminado de los párrafos */
+p {
+    margin-bottom: 0;
+}
+
+/* Establecer el ancho y alto predeterminados de las imágenes */
+img {
+    width: auto;
+    height: auto;
+}
+
+/* Restablecer los bordes predeterminados */
+img,
+fieldset {
+    border: 0;
+}
+
+/* Restablecer la fuente heredada en elementos de formulario */
+button,
+input,
+optgroup,
+select,
+textarea {
+    font: inherit;
+}
+
+/* Restablecer el estilo de fuente y fondo heredados en elementos de formulario */
+button,
+input {
+    overflow: visible;
+}
+
+/* Solucionar errores de espaciado en IE 8 */
+button,
+input[type="button"] {
+    line-height: normal;
+}
+
+/* Restablecer el estilo de fuente heredado en Safari */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/* Remover los estilos de enlace predeterminados en IE */
+a,
+button {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+
+/* Agregar cualquier otro reseteo específico que necesites */
+
