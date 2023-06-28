@@ -4,6 +4,7 @@ header{
     align-items: center;
     justify-content: center;
     font-size: 25px;
+
 }
 .minav{
     font-style: normal;
@@ -21,4 +22,8 @@ header{
 
     padding-right: 1rem;
 
+}
+
+.listanav li:hover{
+    color: #ffa300;
 }
