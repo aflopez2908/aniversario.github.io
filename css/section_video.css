@@ -4,6 +4,9 @@ body{
     background-size: 100%;
 
 }
+video{
+    height: 400px;
+}
 
 .section_mitexto{
     display: flex;
